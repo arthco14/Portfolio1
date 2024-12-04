@@ -1,0 +1,191 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0c0c0c;
+    color: hsl(204, 26%, 96%);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #007bff;
+}
+
+/* En-tête */
+header {
+    background-color: #1e62a7;
+    color: #faf6f6;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Menu de navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    background-color: #1e62a7;
+    padding: 1em 0;
+    margin: 0;
+}
+
+nav ul li {
+    font-size: 1.1em;
+}
+
+nav ul li a {
+    color: #f8f5f5;
+    padding: 0.5em;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1e62a7;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 3em 2em;
+    margin: 2em 0;
+    background: url("./assets/abstrait-numerique-grille-fond-noir_53876-97647.avif") no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre des sections */
+section h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+/* Accueil */
+#accueil {
+    text-align: center;
+}
+
+#accueil img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 1em;
+}
+
+/* Compétences */
+#competences ul {
+    list-style: none;
+    padding: 0;
+}
+
+#competences ul li {
+    font-size: 1.2em;
+}
+
+/* Réalisations */
+#realisations div {
+    margin-bottom: 2em;
+}
+
+#realisations img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Formation */
+#formation a {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.8em 1.5em;
+    background-color: #28a745;
+    color: #863636;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#formation a:hover {
+    background-color: #218838;
+}
+
+/* Formulaire de contact */
+form {
+    display: grid;
+    gap: 1.5em;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: #363163;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8em;
+    font-size: 1em;
+    border: 1px solid #faf9f9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fdfcfc;
+    border: none;
+    padding: 1em;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #363163;
+}
+
+/* Pied de page */
+footer {
+    background-color: #363163;
+    color: #fcf9f9;
+    text-align: center;
+    padding: 1.5em 0;
+    font-size: 1.1em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        padding: 2em;
+    }
+
+    form {
+        padding: 1.5em;
+    }
+}
