@@ -151,7 +151,7 @@ form textarea {
 }
 
 form button {
-    background-color: #255281;
+    background-color: #206fc4;
     color: #fdfcfc;
     border: none;
     padding: 1em;
@@ -162,7 +162,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #206fc4;
+    background-color: #255281;
 }
 
 /* Pied de page */
