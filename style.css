@@ -14,12 +14,12 @@ a {
 }
 
 h1, h2, h3 {
-    color: #007bff;
+    color: #363163;
 }
 
 /* En-tête */
 header {
-    background-color: #1e62a7;
+    background-color: #363163;
     color: #faf6f6;
     text-align: center;
     padding: 2em 0;
@@ -36,7 +36,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 1.5em;
-    background-color: #1e62a7;
+    background-color: #363163;
     padding: 1em 0;
     margin: 0;
 }
@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #1e62a7;
+    background-color: #363163;
     border-radius: 5px;
 }
 
@@ -60,7 +60,7 @@ nav ul li a:hover {
 section {
     padding: 3em 2em;
     margin: 2em 0;
-    background: url("./assets/abstrait-numerique-grille-fond-noir_53876-97647.avif") no-repeat;
+    background: url("./assets/etoiles.jpg") ;
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -111,7 +111,7 @@ section h2 {
     margin-top: 1em;
     padding: 0.8em 1.5em;
     background-color: #28a745;
-    color: #863636;
+    color: #363163;
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
@@ -151,7 +151,7 @@ form textarea {
 }
 
 form button {
-    background-color: #007bff;
+    background-color: #255281;
     color: #fdfcfc;
     border: none;
     padding: 1em;
@@ -162,7 +162,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #363163;
+    background-color: #206fc4;
 }
 
 /* Pied de page */
