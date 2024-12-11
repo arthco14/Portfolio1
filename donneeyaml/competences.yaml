@@ -1,0 +1,32 @@
+site:
+  titre: Mon Portfolio Professionnel
+  pages:
+    - nom: Compétences
+      contenu:
+        - domaines:
+            - nom: Développement Web
+              compétences:
+                - nom: HTML
+                  niveau: intermédiaire
+                - nom: CSS
+                  niveau: intermédiaire
+                - nom: Python
+                  niveau: avancé
+            - nom: Réseau
+              compétences:
+                - nom: TCP/IP
+                  niveau: avancé
+                - nom: Linux
+                  niveau: intermédiaire
+            - nom: Bureautique
+              compétences:
+                - nom: Microsoft Word
+                  niveau: avancé
+                - nom: Microsoft Excel
+                  niveau: avancé
+            - nom: Langues
+              compétences:
+                - nom: Français
+                  niveau: natif
+                - nom: Anglais
+                  niveau: avancé

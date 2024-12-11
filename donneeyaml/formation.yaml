@@ -1,0 +1,13 @@
+site:
+  titre: Mon Portfolio Professionnel
+  pages:
+    - nom: Formation
+      contenu:
+        - formations:
+            - nom: BTS Service Informatique aux Organisations
+              établissement: CaenSup St-Ursule
+              date_debut: Septembre 2024
+              date_fin: Juin 2026
+              lieu: Caen
+              contenu: |
+                Apprentissage des technologies web : HTML, CSS, et Python.

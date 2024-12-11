@@ -1,0 +1,10 @@
+site:
+  titre: Mon Portfolio Professionnel
+  pages:
+    - nom: Réalisations
+      contenu:
+        - projets:
+            - titre: Recette de gâteau
+              description: |
+                Création d'un site permettant de partager des recettes de cuisine.
+              illustration: recette.png
