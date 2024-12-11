@@ -1,0 +1,94 @@
+site:
+  titre: Mon Portfolio Professionnel
+  description: Présentation de mes compétences, réalisations et formations.
+  pages:
+    - nom: Accueil
+      contenu:
+        - prénom_nom: Arthur COSSÉ
+        - accroche: Étudiant en informatique curieux cherchant à apprendre et évoluer
+        - présentation: |
+            Je suis un jeune étudiant ayant la soif de conaissance et d'apprentissage.
+            Par mes compétences en développement et en réseau j'espère évoluer continuellement au sein d'une entreprise.
+        - photo: pfp.png
+    
+    - nom: Compétences
+      contenu:
+        - domaines:
+            - nom: Développement Web
+              compétences:
+                - nom: HTML
+                  niveau: intermédiaire
+                - nom: CSS
+                  niveau: intermédiaire
+                - nom: Python
+                  niveau: avancé
+            - nom: Réseau
+              compétences:
+                - nom: TCP/IP
+                  niveau: avancé
+                - nom: Linux
+                  niveau: intermédiaire
+            - nom: Bureautique
+              compétences:
+                - nom: Microsoft Word
+                  niveau: avancé
+                - nom: Microsoft Excel
+                  niveau: avancé
+            - nom: Langues
+              compétences:
+                - nom: Français
+                  niveau: natif
+                - nom: Anglais
+                  niveau: avancé
+  
+    - nom: Réalisations
+      contenu:
+        - projets:
+            - titre: recette de gateau
+              description: 
+                Le but était de créer un site permettant d'afficher un protocole de recette.
+              illustration: exemple.png
+  
+    - nom: Formation
+      contenu:
+        - formations:
+            - nom: BTS Service Informatique aux Organisations
+              établissement: CaenSup St-Ursule
+              date_debut: Septembre 2024
+              date_fin: Juin 2026
+              lieu: Caen
+              contenu: 
+                Apprentissage des technologies web : HTML, CSS, JavaScript, PHP, YAMl.
+        - cv_pdf: cv.pdf
+
+    - nom: Contact
+      contenu:
+        - formulaire:
+            - champ: Nom
+              type: text
+              requis: true
+            - champ: Email
+              type: email
+              requis: true
+            - champ: Objet
+              type: text
+              requis: true
+            - champ: Message
+              type: textarea
+              requis: true
+            - champ: Captcha
+              type: captcha
+              requis: true
+        - envoi_mail: arthur.cosse@sts-sio-caen.info
+
+  charte_graphique:
+    couleurs:
+      primaire: #007bff 
+      secondaire: #28a745  
+      fond: #f8f9fa  
+      texte: #212529  
+    typographie:
+      titre: Roboto, sans-serif
+      texte: Arial, sans-serif
+    images:
+      logo: logo.png
