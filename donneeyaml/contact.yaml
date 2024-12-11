@@ -1,0 +1,19 @@
+site:
+  titre: Mon Portfolio Professionnel
+  pages:
+    - nom: Contact
+      contenu:
+        - formulaire:
+            - champ: Nom
+              type: text
+              requis: true
+            - champ: Email
+              type: email
+              requis: true
+            - champ: Objet
+              type: text
+              requis: true
+            - champ: Message
+              type: textarea
+              requis: true
+        - envoi_mail: arthur.cosse@sts-sio-caen.info

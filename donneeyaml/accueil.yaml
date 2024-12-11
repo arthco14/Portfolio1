@@ -1,0 +1,11 @@
+site:
+  titre: Mon Portfolio Professionnel
+  description: Présentation de mes compétences, réalisations et formations.
+  pages:
+    - nom: Accueil
+      contenu:
+        - prénom_nom: Arthur COSSÉ
+        - accroche: Étudiant en informatique curieux cherchant à apprendre et évoluer
+        - présentation: |
+            Je suis un jeune étudiant avec une passion pour l'informatique. Je cherche à évoluer dans le domaine du développement et du réseau.
+        - photo: pfp.png
