@@ -20,7 +20,7 @@ $typographie = "Arial, sans-serif"; // Exemple de typographie, à adapter
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($accueil['site']['titre']); ?></title>
-    <link rel="stylesheet" href="index.css"> <!-- Lien vers le CSS -->
+    <link rel="stylesheet" href="assets/css/index.css"> <!-- Lien vers le CSS -->
 </head>
 <body>
 
