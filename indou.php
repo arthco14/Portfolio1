@@ -1,6 +1,7 @@
 <?php
 
 // Fonction pour charger un fichier YAML
+require_once("vendor/autoload.php");
 require_once("yaml/yaml.php");
 
 // Charger les données des fichiers YAML avec des valeurs par défaut si le fichier n'est pas chargé correctement
@@ -84,6 +85,7 @@ $typographie = "Arial, sans-serif"; // Exemple de typographie, à adapter
             <p><?php echo $form['reseau']; ?></p>
         </div>
     <?php endforeach; ?>
+    <a href="assets/<?php echo !empty($data['site']['pages'][3]['contenu'][1]['cv_pdf']) ? htmlspecialchars($data['site']['pages'][3]['contenu'][1]['cv_pdf']) : 'assets/cv.pdf'; ?>" download>Télécharger le CV</a>
 </section>
 
 <!-- Formulaire de contact -->
