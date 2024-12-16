@@ -13,3 +13,4 @@ site:
                 Apprentissage des technologies web : HTML, CSS, Python, JS et PHP
               reseau: |
                 Apprentissage du réseau : DHCP,Linux et TCP/IP.
+        - cv_pdf: cv.pdf
