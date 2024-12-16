@@ -1,19 +1,29 @@
-site:
-  titre: Mon Portfolio Professionnel
-  pages:
-    - nom: Contact
-      contenu:
-        - formulaire:
-            - champ: Nom
-              type: text
-              requis: true
-            - champ: Email
-              type: email
-              requis: true
-            - champ: Objet
-              type: text
-              requis: true
-            - champ: Message
-              type: textarea
-              requis: true
-        - envoi_mail: arthur.cosse@sts-sio-caen.info
+utilisateur:
+  contact:
+    formulaire:
+      champs:
+        - nom: "Nom"
+          type: "text"
+          obligatoire: true
+        - nom: "Email"
+          type: "email"
+          obligatoire: true
+        - nom: "Objet"
+          type: "text"
+          obligatoire: true
+        - nom: "Message"
+          type: "textarea"
+          obligatoire: true
+        - nom: "RGPD"
+          type: "rgpd"
+          obligatoire: true
+          texte: "J'accepte que mes données soient collectées et utilisées uniquement dans le cadre de ce formulaire de contact et ne sont pas enregistées dans une base de donnée. Vos informations ne seront pas partagées avec des tiers."
+        - nom: "Captcha"
+          type: "captcha"
+          obligatoire: true
+      message_confirmation: "Votre message a été envoyé avec succès."
+
+    envoi_email:
+      adresse_destinataire: "arthur.cosse@sts-sio-caen.info"
+      sujet_par_defaut: "Nouveau message du formulaire de contact"
+      message_reception: "Vous avez reçu un nouveau message du formulaire de contact."
