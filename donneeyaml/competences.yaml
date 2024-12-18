@@ -7,26 +7,26 @@ site:
             - nom: Développement Web
               compétences:
                 - nom: HTML
-                  niveau: intermédiaire
+                  niveau: ★★★☆☆
                 - nom: CSS
-                  niveau: intermédiaire
+                  niveau: ★★★☆☆
                 - nom: Python
-                  niveau: avancé
+                  niveau: ★★★★★
             - nom: Réseau
               compétences:
                 - nom: TCP/IP
-                  niveau: avancé
+                  niveau: ★★★★☆
                 - nom: Linux
-                  niveau: intermédiaire
+                  niveau: ★★★☆☆
             - nom: Bureautique
               compétences:
                 - nom: Microsoft Word
-                  niveau: avancé
+                  niveau: ★★★★★
                 - nom: Microsoft Excel
-                  niveau: avancé
+                  niveau: ★★★★★
             - nom: Langues
               compétences:
                 - nom: Français
-                  niveau: natif
+                  niveau: ★★★★★
                 - nom: Anglais
-                  niveau: avancé
+                  niveau: ★★★★☆
