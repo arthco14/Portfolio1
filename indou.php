@@ -1,7 +1,7 @@
 <?php
 
 // Fonction pour charger un fichier YAML
-require_once("vendor/autoload.php");
+
 require_once("yaml/yaml.php");
 
 // Charger les données des fichiers YAML avec des valeurs par défaut si le fichier n'est pas chargé correctement
