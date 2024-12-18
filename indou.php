@@ -85,7 +85,7 @@ $typographie = "Arial, sans-serif"; // Exemple de typographie, à adapter
             <p><?php echo $form['reseau']; ?></p>
         </div>
     <?php endforeach; ?>
-    <a href="assets/<?php echo !empty($data['site']['pages'][3]['contenu'][1]['cv_pdf']) ? htmlspecialchars($data['site']['pages'][3]['contenu'][1]['cv_pdf']) : 'assets/cv.pdf'; ?>" download>Télécharger le CV</a>
+    <a href="assets/<?php echo !empty($data['site']['pages'][3]['contenu'][1]['cv_pdf']) ? htmlspecialchars($data['site']['pages'][3]['contenu'][1]['cv_pdf']) : 'cv.pdf'; ?>" download>Télécharger le CV</a>
 </section>
 
 <!-- Formulaire de contact -->
